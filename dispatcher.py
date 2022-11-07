@@ -10,9 +10,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from loguru import logger
 
-from tools.conf.config import load_config
+from utils.conf.config import load_config
 
-conf = load_config("tools/conf/config.ini")
+conf = load_config("utils/conf/config.ini")
 
 # Configure logger
 logger.remove()

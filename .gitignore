@@ -51,8 +51,8 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-tools/db/migrations/versions/*.py
-!tools/db/migrations/versions/__init__.py
+utils/db/migrations/versions/*.py
+!utils/db/migrations/versions/__init__.py
 MANIFEST
 
 # PyInstaller

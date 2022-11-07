@@ -4,7 +4,7 @@ from loguru import logger
 
 import handlers
 from dispatcher import bot, dp
-from tools.script.commands import set_commands
+from utils.script.commands import set_commands
 
 async def main() -> None:
     dp.include_router(handlers.rtAdmin)
